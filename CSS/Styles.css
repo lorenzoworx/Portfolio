@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 320px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  body {
+    width: 320px;
+  }
+
+  .mobile-header {
+    width: 100%;
+  }
+
+  .mobile-header > header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobile-header > header > nav > img {
+    margin-top: 19px;
+    margin-right: 16px;
+  }
+
+  .mobile-hello {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-hello > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+
+  .mobile-hello > div > h1 {
+    font-weight: 400;
+    font-size: 50px;
+    color: #1a2236;
+    margin: 0;
+    line-height: 100%;
+  }
+
+  .mobile-hello > div > p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1a2236;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    margin-bottom: 0;
+  }
+
+  .mobile-hello > div > button {
+    margin-top: 40px;
+    width: 288px;
+    height: 50px;
+    background-color: #1a2236;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+  .mobile-hello > div > button > span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+  }
+
+  .mobile-hello > div > button:hover {
+    border: 1px solid #1a2236;
+    background-color: #fff;
+  }
+
+  .mobile-hello > div > button:hover > span {
+    color: #1a2236;
+  }
+
+  .mobile-hello > div > button:active {
+    border: 2px solid #1a2236;
+  }
+}

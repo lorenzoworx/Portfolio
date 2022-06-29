@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello_Microverse
+# Portfolio
 
-> A simple project to show how linters, GitHub workflow and branches work
+> This is my microverse portfolio project. I've replicated template 5 from Figma design file. It is a continuous project which will be continuosly updated as required by the microverse program.
 
 
 ## Built With
@@ -15,9 +15,6 @@
 
 ## Getting Started
 
-
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -26,11 +23,28 @@ To get a local copy up and running follow these simple example steps.
 - VSCode or any source code editor of your choice
 - GitHub
 - Terminal
+- Git
+
+### Setup
+
+From the command line, do the following steps below:
+
+1. Clone the projects' repository into your machine.
+
+```bash
+# Clone this repository
+$ git clone git@github.com:lorenzoworx/Portfolio.git
+```
+2. Change directory/Go into the repository with the command below.
+
+```bash
+$ cd Portfolio
+```
 
 
 ## Authors
 
-👤 **Okolo Oshoke**
+👤 **Okolo Oshokenoya**
 
 - GitHub: @lorenzoworx (https://github.com/lorenzoworx)
 - Twitter: @lorenzoworx(https://twitter.com/lorenzoworx)

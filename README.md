@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> This is my microverse portfolio project. I've replicated template 5 from Figma design file. It is a continuous project which will be continuosly updated as required by the microverse program.
+> This is my microverse portfolio project. I've replicated template 5 from [Figma design file](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A9). It is a continuous project which will be continuosly updated as required by the microverse program.
 
 
 ## Built With

@@ -305,7 +305,7 @@ body {
     color: #1a2236;
   }
 
-  .mobile-about > div > button:active{
+  .mobile-about > div > button:active {
     border: 2px solid #1a2236;
   }
 
@@ -330,7 +330,7 @@ body {
     padding-left: 50px;
     padding-top: 50px;
   }
-  
+
   .about-entry > ul {
     padding: 0;
   }
@@ -340,22 +340,21 @@ body {
     padding-left: 10px;
     list-style-type: disc;
     margin-left: 50px;
-    padding: 0;
   }
 
-  .about-entry > ul > li > span{
+  .about-entry > ul > li > span {
     position: relative;
     left: -14px;
   }
-  
+
   .languages {
     background-color: #1c528a;
-    margin-top: 40px;    
+    margin-top: 40px;
   }
 
   .languages > img {
     margin-left: 187px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .frameworks {
@@ -374,16 +373,16 @@ body {
   .skills > img {
     margin-left: 187px;
     margin-top: -29px;
-  }  
+  }
 
-  .text1{
+  .text1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 20px;
-    line-height: 30px;  
+    line-height: 30px;
   }
 
-  .text2{
+  .text2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 18px;

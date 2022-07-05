@@ -162,5 +162,71 @@
             </li>
         </ul>       
     </section>
+
+    <!--Contact Section-->
+    <section class="mobile mobile-contact">
+        <div>
+            <img src="img/image_geometry_1.svg" alt="">
+        </div>
+        <div>
+            <h1>Get Started</h1>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <form action="" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Your name</label>
+                        <input 
+                        type="text" 
+                        name="user_name"
+                        class="inp-field" 
+                        id="name" 
+                        maxlength="30"
+                        required
+                        placeholder="Anastasia">
+                    </li>
+                    <li>
+                        <label for="email">Your email</label>
+                        <input 
+                        type="email"
+                        pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
+                        name="user_email"
+                        class="inp-field" 
+                        id="email"                     
+                        maxlength="30"
+                        required>
+                    </li>
+                    <li>
+                        <textarea 
+                        name="user_message"
+                        class="text-msg" 
+                        id="message" 
+                        cols="30" rows="10" 
+                        placeholder="Enter your message here..."
+                        maxlength="500"
+                        required></textarea>
+                    </li>
+                </ul>
+                <button type="submit" class="button1">Start collaboration</button>    
+            </form>
+        </div>
+        <footer>
+            <div>
+                <a href="#">
+                    Get my Resume
+                    <img src="img/ic_link_teal.svg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#"> <img src="img/ic_stackoverflow.svg" alt=""> </a>
+                <a href="#"> <img src="img/ic_github.svg" alt=""> </a>
+                <a href="#"> <img src="img/ic_twitter.svg" alt=""> </a>
+                <a href="#"> <img src="img/ic_linkedin.svg" alt=""> </a>
+                <a href="#"> <img src="img/ic_medium.svg" alt=""> </a>
+                <a href="#"> <img src="img/ic_angellist.svg" alt=""> </a>
+            </div>
+        </footer>
+    </section>
 </body>
 </html>

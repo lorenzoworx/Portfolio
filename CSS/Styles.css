@@ -336,6 +336,8 @@ body {
     }
     .mobile-contact {
         display: flex;
+        flex-direction: column;
+        
     }
 }
 

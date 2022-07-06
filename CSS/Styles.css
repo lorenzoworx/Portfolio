@@ -1,4 +1,5 @@
 /* stylelint-disable no-descending-specificity */
+
 *,
 *::before,
 *::after {
@@ -388,6 +389,179 @@ body {
     font-size: 18px;
     line-height: 27px;
     letter-spacing: -0.0525em;
+  }
+
+  /* Contact Section */
+  .mobile-contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: #f9f9fa;
+  }
+
+  .mobile-contact > div > h1 {
+    font-weight: 400;
+    font-size: 50px;
+    color: #1a2236;
+    margin: 0;
+    line-height: 100%;
+    margin-top: 32px;
+    margin-left: 18px;
+  }
+
+  .mobile-contact > div > p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #1a2236;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-bottom: 0;
+  }
+
+  .mobile-contact > div > form {
+    margin-top: 10px;
+  }
+
+  .mobile-contact > div > form > ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+
+  .mobile-contact > div > form > ul > li > label {
+    margin-left: 34px;
+    width: 55px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #7d7c84;
+    position: relative;
+    top: 20px;
+  }
+
+  .email-field {
+    margin-top: -14px;
+  }
+
+  .mobile-contact > div > form > ul > li > input {
+    margin-left: 18px;
+    width: 288px;
+    height: 52px;
+    background-color: #fff;
+    border: 1px solid #dfdfe0;
+    border-radius: 4px;
+  }
+
+  .mobile-contact > div > form > ul > li > input:active {
+    border: 1px solid #1a2236;
+  }
+
+  .mobile-contact > div > form > ul > li > input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1a2236;
+    padding-left: 16px;
+    padding-bottom: 4px;
+  }
+
+  .text-msg {
+    margin-left: 18px;
+    margin-top: 8px;
+    width: 288px;
+    height: 112px;
+    background-color: #fff;
+    border: 1px solid #dfdfe0;
+    border-radius: 4px;
+  }
+
+  .text-msg:active {
+    border: 1px solid #1a2236;
+  }
+
+  .text-msg::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7d7c84;
+    padding-left: 16px;
+    padding-top: 15px;
+  }
+
+  .mobile-contact > div > form > button {
+    width: 288px;
+    height: 44px;
+    margin-left: 18px;
+    background-color: #1a2236;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .mobile-contact > div > form > button > span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+  }
+
+  .mobile-contact > div > form > button:hover {
+    border: 1px solid #1a2236;
+    background-color: #fff;
+  }
+
+  .mobile-contact > div > form > button:hover > span {
+    color: #1a2236;
+  }
+
+  .mobile-contact > div > form > button:active {
+    border: 2px solid #1a2236;
+  }
+
+  .mobile-contact > footer {
+    margin-top: 64px;
+    background-color: #1a2236;
+  }
+
+  .resume {
+    margin-left: 16px;
+    margin-top: 32px;
+  }
+
+  .resume > a {
+    text-decoration: none;
+  }
+
+  .resume > a > span {
+    color: #92dcdc;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 16px;
+  }
+
+  .resume > a > img {
+    position: relative;
+    top: 4px;
+  }
+
+  .connect {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .connect > a {
+    text-decoration: none;
   }
 }
 /* stylelint-enable no-descending-specificity */

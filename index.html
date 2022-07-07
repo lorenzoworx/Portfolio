@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="CSS/Styles.css" />
+    <link rel="stylesheet" href="CSS/Deskstyles.css">
 </head>
 
 <body>
@@ -225,6 +226,218 @@
             </div>
         </footer>
     </section>
-</body>
 
+    <!--Desktop-Section-->
+    <section class="desktop desktop-header">
+        <header>
+            <nav>
+                <ul class="poppins">
+                    <li><a href="#">Hello</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <section class="desktop desktop-hello">
+        <div class="hello-text">
+            <h1 class="playfair">Okolo <br> Oshoke</h1>
+            <p class="poppins">Hello! I am a software developer! I can help you build a product, feature or website. Take a look of my works.
+                If you like what you see and have a project you need coded, don&rsquo;t hesitate and contact me.
+            </p>
+            <button type="button" class="poppins">Start Collaboration</button>
+        </div>            
+            <div class="hello-img">
+                <img class="img1" src="img/intro-dots.svg" alt="">
+                <img class="img2" src="img/image-geometry_1-j.jpg" alt="">
+            </div>            
+    </section>
+
+   <!-- <section class="desktop desktop-portfolio">
+        <div class="port-flex">
+            <h1 class="playfair">Projects</h1>
+            <img class="img3" src="img/projects-dots-1.svg" alt="">
+            <div class="port-entry-1" >
+                <img class="img4" src="img/project_1.jpg" alt="">
+                <div class="poppins">
+                    <h1>Project name goes here</h1>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>Ruby on Rails</li>
+                        <li>Javascript</li> 
+                    </ul>
+                    <button>See this project &#x2192;</button>
+                    <img src="img/pointer.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="img/project_2.jpg" alt="">
+        </div>
+        
+        <div>
+            <img src="img/projects-geometry_1.svg" alt="">
+        </div>
+
+        <div>
+            <img src="img/project_6.jpg" alt="">
+        </div>
+
+        <div>
+            <div>
+                <h1>Project name goes here</h1>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Ruby on Rails</li>
+                    <li>+1</li> 
+                </ul>
+                <button>See this project &#x2192;</button>
+                <img src="img/pointer.svg" alt="">
+            </div>
+            <img src="img/project_5.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="img/project_3.jpg" alt="">
+        </div>
+        <div>
+            <img src="img/projects-geometry_2.svg" alt="">
+        </div>
+        <div>
+            <img src="img/projects-geometry_3.svg" alt="">
+        </div>
+        <div>
+            <img src="img/projects-geometry_4.svg" alt="">
+        </div>
+        <div>
+            <img src="img/project_4.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="desktop desktop-about">
+        <div>
+            
+            <div>                
+                <div>
+                    <h1>Languages</h1>
+                    <ul>
+                        <li>JavaScript (ES5/ES6)</li>
+                        <li>Ruby</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    <img src="img/lang.svg" alt=""> 
+                </div>
+
+                <div>
+                    <h1>Frameworks</h1>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Ruby  on rails</li>
+                        <li>RSpec</li>
+                        <li>Capibara</li>
+                        <li>Selenium</li>
+                    </ul>
+                    <img src="img/frame.svg" alt=""> 
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h1>Skills</h1>
+                    <ul>
+                        <li>Codekit</li>
+                        <li>Codepen</li>
+                        <li>GitHub</li>
+                        <li>GitLAb</li>
+                        <li>Terminal</li>
+                    </ul>
+                    <img src="img/skills.svg" alt=""> 
+                </div>
+                <div>
+                    <img src="img/about-dots.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod
+            </p>
+            <button>
+                Get my CV
+                <img src="img/ic_download.svg" alt="">
+            </button>
+        </div>
+    </section>
+
+    <section class="desktop desktop-contact">
+        <div> <img src="img/contact-geometry_1.svg" alt=""> </div>
+        <div>
+            <h1>Get Started</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <form action="">
+                <ul>
+                    <li>
+                        <label for="name">Your name</label>
+                        <input 
+                        type="text" 
+                        name="user_name"
+                        class="inp-field" 
+                        id="name" 
+                        maxlength="30"
+                        required
+                        placeholder="Anastasia">
+                    </li>
+                    <li>
+                        <label for="email">Your email</label>
+                        <input 
+                        type="email"
+                        pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
+                        name="user_email"
+                        class="inp-field" 
+                        id="email"                     
+                        maxlength="30"
+                        required>
+                    </li>
+                    <li>
+                        <textarea 
+                        name="user_message"
+                        class="text-msg" 
+                        id="message" 
+                        cols="30" rows="10" 
+                        placeholder="Enter your message here..."
+                        maxlength="500"
+                        required></textarea>
+                    </li>
+                </ul>
+                <button type="submit" class="button1">Start collaboration</button>    
+            </form>
+        </div>
+        <div> <img src="img/contact-geometry_2.svg" alt=""> </div>
+        <footer>
+            <div>
+                <a href="#">
+                    Get my CV
+                    <img src="img/ic_link_teal.svg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#"> <img src="img/ic_stackoverflow.svg" alt=""> </a>
+                <a href="#"> <img src="img/ic_github.svg" alt=""> </a>
+                <a href="#"> <img src="img/ic_twitter.svg" alt=""> </a>
+                <a href="#"> <img src="img/ic_linkedin.svg" alt=""> </a>
+                <a href="#"> <img src="img/ic_medium.svg" alt=""> </a>
+                <a href="#"> <img src="img/ic_angellist.svg" alt=""> </a>
+            </div>            
+        </footer>
+    </section> -->
+
+</body>
 </html>

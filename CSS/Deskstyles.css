@@ -1,0 +1,134 @@
+@media screen and (min-width: 768px) {    
+    html,
+  body {
+    margin: 0;
+    padding: 0;
+    }
+   
+    .mobile{
+        display: none;
+    }
+
+    .desktop-header>header{
+        display: flex;
+        justify-content: center;
+        height: 100px;  
+        align-items: center; 
+        background-color: #ffffff;
+        border-bottom: 1px solid #f9f9fa;
+        box-shadow: 0px 0.5px 0px #dddfe6;     
+    }
+
+    .desktop-header>header>nav>ul{
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    .desktop-header>header>nav>ul>li>a{
+        text-decoration: none;
+        margin-right: 3.47vw;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #1a2236;
+    }
+
+    .desktop-header>header>nav>ul>li>a:hover{
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+
+    .desktop-hello{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .hello-text{
+        display: flex;
+        flex-direction: column;
+        position: absolute;        
+        top: 292px;
+    }
+
+    .hello-text>h1{
+        font-style: normal;
+        font-size: 6.875rem;
+        line-height: 6.875rem;
+        margin-top: 0;
+        margin-bottom: 60px;
+        width: 258px;
+        height: 220px;
+        color: #1a2236;
+    }
+
+    .hello-text>p{
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 0.625rem;
+        line-height: 1.3125rem;
+        letter-spacing: -0.01em;
+        color: #1A2236;
+        margin-bottom: 59px;
+        width: 258px;
+        height: 84px;
+    }
+
+
+    .hello-text>button{
+        height: 70px;
+        width: 135px;
+        background-color: #1a2236;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 1.688rem;
+    }
+
+    .hello-text>button:hover{
+        background-color: #ffffff;
+        color: #1a2236;
+        border: 1px solid #1a2236;
+    }
+
+    .hello-text>button:active{
+        border: 2px solid #1a2236;
+    }
+
+    .hello-img{
+        position: absolute;
+        top: 100px;
+        right: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .img1{
+        width: 175px;
+        align-self: flex-end;
+    }
+
+    .img2{
+        width: 385px;
+        height: 481px;       
+    }
+
+            
+    /*
+    .desktop-portfolio{
+        margin-top: 210px;
+    }
+
+    .port-flex{
+        display: flex;
+    }
+
+    .port-flex>h1{
+       font-weight: 400;
+       font-size: 6.875rem;
+       line-height: 6.875rem;
+       transform: rotate(-90deg);
+       margin-top: 10vw;
+       margin-bottom: 4.7vw;
+    } */    
+}

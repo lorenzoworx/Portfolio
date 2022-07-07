@@ -21,7 +21,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   html,
   body {
     margin: 0;
@@ -562,6 +562,10 @@ body {
 
   .connect > a {
     text-decoration: none;
+  }
+
+  .desktop{
+    display: none;
   }
 }
 /* stylelint-enable no-descending-specificity */

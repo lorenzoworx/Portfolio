@@ -480,22 +480,24 @@ body {
     .connect>a {
         text-decoration: none;
     }
-    .connect>a>img {
-        animation-name: scale1-5;
-        animation-duration: 2s;
-    }
-    @keyframes scale1-5 {
-        0% {
-            transform: scale(1);
-        }
-        50% {
-            transform: scale(1.5);
-        }
-        100% {
-            transform: scale(1);
-        }
-    }
+    
     .desktop {
         display: none;
     }
+
+    .connect>a>img:hover{
+      animation-name: scale1-5;
+      animation-duration: 2s;
+    }
+    @keyframes scale1-5 {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+          transform: scale(1.5);
+      }
+      100% {
+          transform: scale(1);
+      }
+  }
 }

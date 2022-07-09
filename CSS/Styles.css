@@ -500,4 +500,8 @@ body {
           transform: scale(1);
       }
   }
+  
+  .menu-img{ transition-delay: 0.2s;}
+.menu-img:hover{transform: rotate(90deg);}
+
 }

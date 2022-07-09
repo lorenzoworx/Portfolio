@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 
 *,
 *::before,
@@ -21,7 +20,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   html,
   body {
     margin: 0;
@@ -45,6 +44,26 @@ body {
     justify-content: space-between;
   }
 
+  .languages > img {
+    margin-left: 187px;
+    margin-top: 0;
+  }
+
+  .frameworks > img {
+    margin-left: 193px;
+    margin-top: -22px;
+  }
+
+  .skills > img {
+    margin-left: 187px;
+    margin-top: -29px;
+  }
+
+  .resume > a > img {
+    position: relative;
+    top: 4px;
+  }
+
   .mobile-header > header > nav > img {
     margin-top: 19px;
     margin-right: 16px;
@@ -61,6 +80,15 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 16px;
+  }
+
+  .mobile-portfolio > h1 {
+    margin: 0;
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 50px;
+    color: #1a2236;
+    line-height: 100%;
   }
 
   .mobile-hello > div > h1 {
@@ -92,6 +120,14 @@ body {
     margin-bottom: 32px;
   }
 
+  .resume > a > span {
+    color: #92dcdc;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 16px;
+  }
+
   .mobile-hello > div > button > span {
     font-weight: 500;
     font-size: 16px;
@@ -99,9 +135,69 @@ body {
     line-height: 24px;
   }
 
+  .mobile-about > div > button {
+    width: 288px;
+    height: 50px;
+    background-color: #1a2236;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+  }
+
+  .mobile-portfolio > div > div > button {
+    width: 178px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    background-color: #1a2236;
+  }
+
+  .mobile-contact > div > form > button {
+    width: 288px;
+    height: 44px;
+    margin-left: 18px;
+    background-color: #1a2236;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
   .mobile-hello > div > button:hover {
     border: 1px solid #1a2236;
     background-color: #fff;
+  }
+
+  .mobile-about > div > button > span {
+    margin-left: 20px;
+  }
+
+  .about-entry > ul > li > span {
+    position: relative;
+    left: -14px;
+  }
+
+  .mobile-portfolio > div > div > button > span {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .mobile-contact > div > form > button > span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
   }
 
   .mobile-hello > div > button:hover > span {
@@ -119,15 +215,6 @@ body {
     grid-template-rows: 82px repeat(6, 1fr);
     margin-top: 40px;
     height: fit-content;
-  }
-
-  .mobile-portfolio > h1 {
-    margin: 0;
-    margin-left: 16px;
-    font-weight: 400;
-    font-size: 50px;
-    color: #1a2236;
-    line-height: 100%;
   }
 
   .grid-item-1 {
@@ -195,8 +282,28 @@ body {
     margin-left: 20px;
   }
 
+  .mobile-about > ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .about-entry > ul {
+    padding: 0;
+  }
+
   .mobile-portfolio > div > div > ul {
     padding: 0;
+  }
+
+  .mobile-about > ul > li {
+    list-style: none;
+  }
+
+  .about-entry > ul > li {
+    list-style-position: inside;
+    padding-left: 10px;
+    list-style-type: disc;
+    margin-left: 50px;
   }
 
   .mobile-portfolio > div > div > ul > li {
@@ -225,24 +332,14 @@ body {
     margin-left: 10px;
   }
 
-  .mobile-portfolio > div > div > button {
-    width: 178px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #fff;
-    background-color: #1a2236;
+  .mobile-about > div > button:hover {
+    border: 1px solid #1a2236;
+    background-color: #fff;
+    color: #1a2236;
   }
 
-  .mobile-portfolio > div > div > button > span {
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+  .mobile-about > div > button:active {
+    border: 2px solid #1a2236;
   }
 
   .mobile-portfolio > div > div > button:hover {
@@ -283,42 +380,6 @@ body {
     margin-bottom: 32px;
   }
 
-  .mobile-about > div > button {
-    width: 288px;
-    height: 50px;
-    background-color: #1a2236;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
-    line-height: 24px;
-  }
-
-  .mobile-about > div > button > span {
-    margin-left: 20px;
-  }
-
-  .mobile-about > div > button:hover {
-    border: 1px solid #1a2236;
-    background-color: #fff;
-    color: #1a2236;
-  }
-
-  .mobile-about > div > button:active {
-    border: 2px solid #1a2236;
-  }
-
-  .mobile-about > ul {
-    padding: 0;
-    margin: 0;
-  }
-
-  .mobile-about > ul > li {
-    list-style: none;
-  }
-
   .about-entry {
     width: 289px;
     height: 289px;
@@ -332,48 +393,17 @@ body {
     padding-top: 50px;
   }
 
-  .about-entry > ul {
-    padding: 0;
-  }
-
-  .about-entry > ul > li {
-    list-style-position: inside;
-    padding-left: 10px;
-    list-style-type: disc;
-    margin-left: 50px;
-  }
-
-  .about-entry > ul > li > span {
-    position: relative;
-    left: -14px;
-  }
-
   .languages {
     background-color: #1c528a;
     margin-top: 40px;
-  }
-
-  .languages > img {
-    margin-left: 187px;
-    margin-top: 0;
   }
 
   .frameworks {
     background-color: #e2505c;
   }
 
-  .frameworks > img {
-    margin-left: 193px;
-    margin-top: -22px;
-  }
-
   .skills {
     background-color: #febf52;
-  }
-
-  .skills > img {
-    margin-left: 187px;
-    margin-top: -29px;
   }
 
   .text1 {
@@ -493,24 +523,6 @@ body {
     padding-top: 15px;
   }
 
-  .mobile-contact > div > form > button {
-    width: 288px;
-    height: 44px;
-    margin-left: 18px;
-    background-color: #1a2236;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-
-  .mobile-contact > div > form > button > span {
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
-    line-height: 24px;
-  }
-
   .mobile-contact > div > form > button:hover {
     border: 1px solid #1a2236;
     background-color: #fff;
@@ -538,19 +550,6 @@ body {
     text-decoration: none;
   }
 
-  .resume > a > span {
-    color: #92dcdc;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    margin-right: 16px;
-  }
-
-  .resume > a > img {
-    position: relative;
-    top: 4px;
-  }
-
   .connect {
     margin-top: 30px;
     margin-bottom: 40px;
@@ -563,5 +562,8 @@ body {
   .connect > a {
     text-decoration: none;
   }
+
+  .desktop {
+    display: none;
+  }
 }
-/* stylelint-enable no-descending-specificity */

@@ -10,7 +10,10 @@
 - HTML
 - CSS
 
+## Live Demo
 
+
+[GitHub Pages Link](https://lorenzoworx.github.io/Portfolio/)
 
 
 ## Getting Started

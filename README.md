@@ -58,7 +58,7 @@ $ cd Portfolio
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page(https://github.com/ooshoke/Hello_Microverse/issues).
+Feel free to check the issues page(https://github.com/lorenzoworx/Portfolio/issues).
 
 ## Show your support
 

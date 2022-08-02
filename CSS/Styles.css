@@ -10,7 +10,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 .playfair {
@@ -21,44 +20,44 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.line{
+.line {
   background-color: #c4c4c4;
   width: 30px;
   height: 5px;
   margin-bottom: 4px;
 }
 
-.hamburger{
+.hamburger {
   margin-top: 19px;
   margin-right: 16px;
   position: relative;
   z-index: 2;
 }
 
-.top.active{
+.top.active {
   transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
-  background-color: #000000;
+  background-color: #000;
 }
 
-.middle.active{
+.middle.active {
   display: none;
 }
 
-.bottom.active{
+.bottom.active {
   transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
-  background-color: #000000;
+  background-color: #000;
 }
 
-.nav-links{
+.nav-links {
   list-style: none;
   padding-left: 127px;
   margin-top: 30px;
   margin-bottom: 82px;
 }
 
-.nav-links>li>a{
+.nav-links > li > a {
   text-decoration: none;
-  color: #000000;
+  color: #000;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
@@ -66,7 +65,7 @@ body {
   text-align: center;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
@@ -617,12 +616,12 @@ body {
     display: none;
   }
 
-  .hamburger-menu{
+  .hamburger-menu {
     position: fixed;
     background-color: #e5e5e5;
     height: 100vh;
     width: 320px;
-    top: 0;    
+    top: 0;
     left: 50%;
     margin-left: -160px;
   }

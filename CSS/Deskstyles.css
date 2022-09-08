@@ -636,7 +636,7 @@
     color: #7d7c84;
   }
 
-  .desk-modal{
+  .desk-modal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -645,41 +645,40 @@
     backdrop-filter: blur(24px);
     z-index: 50;
     position: absolute;
-    top: 0;    
-    width: 100vw;  
+    top: 0;
+    width: 100vw;
     height: 100%;
     overflow: scroll;
   }
 
-  .modalWrapper{
+  .modalWrapper {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #fff;
     width: 90vw;
     margin-top: 70px;
     position: absolute;
-    top: 0px;
-        
+    top: 0;
   }
 
-  .headBar{
+  .headBar {
     display: flex;
-    margin: 60px 60px 0px 60px;  
+    margin: 60px 60px 0 60px;
     justify-content: space-between;
   }
 
-  .deskH1{
+  .deskH1 {
     font-weight: 700;
     font-size: 60px;
     line-height: 80%;
   }
 
-  .desk-quit{
+  .desk-quit {
     width: auto;
     height: 32px;
   }
 
-  .modtags{
+  .modtags {
     list-style: none;
     display: flex;
     padding-left: 60px;
@@ -687,40 +686,40 @@
     margin-top: 34px;
   }
 
-  .modtag{
-    border: 1px solid #1A2236;
+  .modtag {
+    border: 1px solid #1a2236;
   }
 
-  .deskModImg{
+  .deskModImg {
     margin-top: 40px;
     width: 81vw;
     margin-left: 60px;
   }
 
-  .deskSubDiv{
+  .deskSubDiv {
     width: 81vw;
     margin-left: 60px;
   }
 
-  .deskSubImg{
+  .deskSubImg {
     width: 272px;
   }
 
-  .deskpara1{
+  .deskpara1 {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     margin: 68px 20vw 30px 20vw;
   }
 
-  .deskpara2{
+  .deskpara2 {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     margin: 0 20vw;
   }
 
-  .deskBtn{
+  .deskBtn {
     margin-top: 40px;
     margin-left: 20vw;
     display: flex;
@@ -728,7 +727,7 @@
     margin-bottom: 10px;
   }
 
-  .deskBtn1{
+  .deskBtn1 {
     text-decoration: none;
     color: #1a2236;
     font-weight: 500;
@@ -737,34 +736,34 @@
     display: flex;
   }
 
-  .desk-btn{
+  .desk-btn {
     width: 17vw;
     height: 51px;
-    border: 1px solid #1A2236;
+    border: 1px solid #1a2236;
     display: flex;
     align-items: center;
     padding-left: 22px;
     padding-right: 14px;
   }
 
-  .deskLive{
+  .deskLive {
     padding-left: 50px;
   }
 
-  .next{
+  .next {
     display: flex;
     margin: 120px 20vw 10px 20vw;
     justify-content: space-between;
   }
 
-  .next1{
+  .next1 {
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 109px;
   }
 
-  .hide{
+  .hide {
     display: none;
   }
 }

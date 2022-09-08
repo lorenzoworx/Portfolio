@@ -1,107 +1,106 @@
-const body = document.querySelector("body");
-const hamburger = document.querySelector(".hamburger");
-const modalsSection = document.querySelector(".modals-section");
-hamburger.addEventListener("click", () => {
-  const menu = document.querySelector(".hamburger-menu");
-  const top = document.querySelector(".top");
-  const middle = document.querySelector(".middle");
-  const bottom = document.querySelector(".bottom");
-  menu.classList.toggle("hide");
-  top.classList.toggle("active");
-  middle.classList.toggle("active");
-  bottom.classList.toggle("active");
+const hamburger = document.querySelector('.hamburger');
+const modalsSection = document.querySelector('.modals-section');
+hamburger.addEventListener('click', () => {
+  const menu = document.querySelector('.hamburger-menu');
+  const top = document.querySelector('.top');
+  const middle = document.querySelector('.middle');
+  const bottom = document.querySelector('.bottom');
+  menu.classList.toggle('hide');
+  top.classList.toggle('active');
+  middle.classList.toggle('active');
+  bottom.classList.toggle('active');
 });
 
-const items = document.querySelector(".hamburger-menu").childNodes;
+const items = document.querySelector('.hamburger-menu').childNodes;
 
 items.forEach((item) => {
-  item.addEventListener("click", () => {
-    const menu = document.querySelector(".hamburger-menu");
-    const top = document.querySelector(".top");
-    const middle = document.querySelector(".middle");
-    const bottom = document.querySelector(".bottom");
-    menu.classList.toggle("hide");
-    top.classList.toggle("active");
-    middle.classList.toggle("active");
-    bottom.classList.toggle("active");
+  item.addEventListener('click', () => {
+    const menu = document.querySelector('.hamburger-menu');
+    const top = document.querySelector('.top');
+    const middle = document.querySelector('.middle');
+    const bottom = document.querySelector('.bottom');
+    menu.classList.toggle('hide');
+    top.classList.toggle('active');
+    middle.classList.toggle('active');
+    bottom.classList.toggle('active');
   });
 });
 
 const portfolio = [
   {
-    gridPosition: "grid-item-2",
-    cardClass: "project-div",
-    cardImage: "img/project_1.jpg",
-    cardTitle: "Project name goes here",
-    titleClass: "poppins",
-    techTags: ["HTML", "Ruby on Rails", "Javascript"],
-    tagClasses: ["li-htm", "li-rub", "li-jav"],
-    button1: "See this project &#x2192;",
-    buttonClass: "openModal",
+    gridPosition: 'grid-item-2',
+    cardClass: 'project-div',
+    cardImage: 'img/project_1.jpg',
+    cardTitle: 'Project name goes here',
+    titleClass: 'poppins',
+    techTags: ['HTML', 'Ruby on Rails', 'Javascript'],
+    tagClasses: ['li-htm', 'li-rub', 'li-jav'],
+    button1: 'See this project &#x2192;',
+    buttonClass: 'openModal',
   },
 
   {
-    gridPosition: "grid-item-3",
-    cardClass: "project-div",
-    cardImage: "img/project_2.jpg",
-    cardTitle: "Project name goes here",
-    titleClass: "poppins",
-    techTags: ["HTML", "Ruby on Rails", "Javascript"],
-    tagClasses: ["li-htm", "li-rub", "li-jav"],
-    button1: "See this project &#x2192;",
-    buttonClass: "openModal",
+    gridPosition: 'grid-item-3',
+    cardClass: 'project-div',
+    cardImage: 'img/project_2.jpg',
+    cardTitle: 'Project name goes here',
+    titleClass: 'poppins',
+    techTags: ['HTML', 'Ruby on Rails', 'Javascript'],
+    tagClasses: ['li-htm', 'li-rub', 'li-jav'],
+    button1: 'See this project &#x2192;',
+    buttonClass: 'openModal',
   },
 
   {
-    gridPosition: "grid-item-4",
-    cardClass: "project-div",
-    cardImage: "img/project_3.jpg",
-    cardTitle: "Project name goes here",
-    titleClass: "poppins",
-    techTags: ["HTML", "Ruby on Rails", "Javascript"],
-    tagClasses: ["li-htm", "li-rub", "li-jav"],
-    button1: "See this project &#x2192;",
-    buttonClass: "openModal",
+    gridPosition: 'grid-item-4',
+    cardClass: 'project-div',
+    cardImage: 'img/project_3.jpg',
+    cardTitle: 'Project name goes here',
+    titleClass: 'poppins',
+    techTags: ['HTML', 'Ruby on Rails', 'Javascript'],
+    tagClasses: ['li-htm', 'li-rub', 'li-jav'],
+    button1: 'See this project &#x2192;',
+    buttonClass: 'openModal',
   },
 
   {
-    gridPosition: "grid-item-5",
-    cardClass: "project-div",
-    cardImage: "img/project_4.jpg",
-    cardTitle: "Project name goes here",
-    titleClass: "poppins",
-    techTags: ["HTML", "Ruby on Rails", "Javascript"],
-    tagClasses: ["li-htm", "li-rub", "li-jav"],
-    button1: "See this project &#x2192;",
-    buttonClass: "openModal",
+    gridPosition: 'grid-item-5',
+    cardClass: 'project-div',
+    cardImage: 'img/project_4.jpg',
+    cardTitle: 'Project name goes here',
+    titleClass: 'poppins',
+    techTags: ['HTML', 'Ruby on Rails', 'Javascript'],
+    tagClasses: ['li-htm', 'li-rub', 'li-jav'],
+    button1: 'See this project &#x2192;',
+    buttonClass: 'openModal',
   },
 
   {
-    gridPosition: "grid-item-6",
-    cardClass: "project-div",
-    cardImage: "img/project_5.jpg",
-    cardTitle: "Project name goes here",
-    titleClass: "poppins",
-    techTags: ["HTML", "Ruby on Rails", "Javascript"],
-    tagClasses: ["li-htm", "li-rub", "li-jav"],
-    button1: "See this project &#x2192;",
-    buttonClass: "openModal",
+    gridPosition: 'grid-item-6',
+    cardClass: 'project-div',
+    cardImage: 'img/project_5.jpg',
+    cardTitle: 'Project name goes here',
+    titleClass: 'poppins',
+    techTags: ['HTML', 'Ruby on Rails', 'Javascript'],
+    tagClasses: ['li-htm', 'li-rub', 'li-jav'],
+    button1: 'See this project &#x2192;',
+    buttonClass: 'openModal',
   },
 
   {
-    gridPosition: "grid-item-7",
-    cardClass: "project-div",
-    cardImage: "img/project_6.jpg",
-    cardTitle: "Project name goes here",
-    titleClass: "poppins",
-    techTags: ["HTML", "Ruby on Rails", "Javascript"],
-    tagClasses: ["li-htm", "li-rub", "li-jav"],
-    button1: "See this project &#x2192;",
-    buttonClass: "openModal",
+    gridPosition: 'grid-item-7',
+    cardClass: 'project-div',
+    cardImage: 'img/project_6.jpg',
+    cardTitle: 'Project name goes here',
+    titleClass: 'poppins',
+    techTags: ['HTML', 'Ruby on Rails', 'Javascript'],
+    tagClasses: ['li-htm', 'li-rub', 'li-jav'],
+    button1: 'See this project &#x2192;',
+    buttonClass: 'openModal',
   },
 ];
 
-const portfolioSection = document.querySelector("#portfolio");
+const portfolioSection = document.querySelector('#portfolio');
 
 Array.from(portfolioSection.children).forEach((child, index) => {
   child.innerHTML = `
@@ -122,24 +121,24 @@ Array.from(portfolioSection.children).forEach((child, index) => {
 
 const desktopPortfolio = [
   {
-    gridPosition: "grid-2-3",
-    cardClass: "port-entry-1",
-    cardTitle: "Project name goes here",
-    techTags: ["HTML", "Ruby on Rails", "Javascript"],
-    button1: "See this project &#x2192;",
-    buttonClass: "openDeskModal1",
+    gridPosition: 'grid-2-3',
+    cardClass: 'port-entry-1',
+    cardTitle: 'Project name goes here',
+    techTags: ['HTML', 'Ruby on Rails', 'Javascript'],
+    button1: 'See this project &#x2192;',
+    buttonClass: 'openDeskModal1',
   },
 
   {
-    gridPosition: "grid-2-7",
-    cardTitle: "Project name goes...",
-    techTags: ["HTML", "Ruby on Rails", "+1"],
-    button1: "See this project &#x2192;",
-    buttonClass: "openDeskModal2",
+    gridPosition: 'grid-2-7',
+    cardTitle: 'Project name goes...',
+    techTags: ['HTML', 'Ruby on Rails', '+1'],
+    button1: 'See this project &#x2192;',
+    buttonClass: 'openDeskModal2',
   },
 ];
 
-const deskPort1 = document.querySelector(".portentry1");
+const deskPort1 = document.querySelector('.portentry1');
 deskPort1.innerHTML = `
   <div class="${desktopPortfolio[0].cardClass} ${desktopPortfolio[0].gridPosition}" >                
   <div class="poppins">
@@ -155,7 +154,7 @@ deskPort1.innerHTML = `
 </div>   
   `;
 
-const deskport2 = document.querySelector(".portentry2");
+const deskport2 = document.querySelector('.portentry2');
 deskport2.innerHTML = `
   <div class="${desktopPortfolio[1].gridPosition}">
   <div>
@@ -171,11 +170,11 @@ deskport2.innerHTML = `
 </div>
   `;
 
-const modalPopup = document.querySelectorAll(".openModal");
+const modalPopup = document.querySelectorAll('.openModal');
 modalPopup.forEach((element) => {
-  element.addEventListener("click", () => {
-    const popupWindow = document.createElement("section");
-    popupWindow.classList.add("modal-pop");
+  element.addEventListener('click', () => {
+    const popupWindow = document.createElement('section');
+    popupWindow.classList.add('modal-pop');
     popupWindow.innerHTML = `
       <div class="mobile modal ">   
       <img src="img/close.png" alt="" class="modal-quit">
@@ -206,24 +205,32 @@ modalPopup.forEach((element) => {
     </div>
       `;
     document.body.appendChild(popupWindow);
-    window.addEventListener("click", (e) =>
-      e.target === popupWindow ? popupWindow.classList.add("hide") : false
-    );
-    const closePopup = document.querySelectorAll(".modal-quit");
+    window.addEventListener('click', (e) => (e.target === popupWindow ? popupWindow.classList.add('hide') : false));
+    const closePopup = document.querySelectorAll('.modal-quit');
     closePopup.forEach((el) => {
-      el.addEventListener("click", () => {
-        popupWindow.classList.toggle("hide");
+      el.addEventListener('click', () => {
+        popupWindow.classList.toggle('hide');
       });
     });
   });
 });
 
-const deskPop1 = document.querySelectorAll(".openDeskModal1");
+function stopScroll(val) {
+  if (val) {
+    // Disable scroll
+    document.body.style.overflow = 'hidden';
+    window.scrollTo(0, 0);
+  } else {
+    // Enable scroll
+    document.body.style.overflow = 'auto';
+  }
+}
+
+const deskPop1 = document.querySelectorAll('.openDeskModal1');
 deskPop1.forEach((element) => {
-  element.addEventListener("click", () => {
-    //body.classList.toggle('overflow');
-    const deskPopWin1 = document.createElement("section");
-    deskPopWin1.classList.add("desktop", "desk-modal");
+  element.addEventListener('click', () => {
+    const deskPopWin1 = document.createElement('section');
+    deskPopWin1.classList.add('desktop', 'desk-modal');
     deskPopWin1.innerHTML = `
       <div class="modalWrapper">
       <div class="headBar">
@@ -260,33 +267,27 @@ deskPop1.forEach((element) => {
       </div>
   </div>
       `;
-    // document.body.appendChild(deskPopWin1);
-    modalsSection.innerHTML = "";
+
+    modalsSection.innerHTML = '';
     modalsSection.appendChild(deskPopWin1);
     stopScroll(true);
 
-    window.addEventListener("click", (e) =>
-      e.target === deskPopWin1 ? deskPopWin1.classList.add("hide") : false
-    );
-    const closeDeskPop1 = document.querySelectorAll(".desk-quit1");
+    window.addEventListener('click', (e) => (e.target === deskPopWin1 ? deskPopWin1.classList.add('hide') : false));
+    const closeDeskPop1 = document.querySelectorAll('.desk-quit1');
     closeDeskPop1.forEach((el) => {
-      el.addEventListener("click", () => {
-        deskPopWin1.classList.toggle("hide");
+      el.addEventListener('click', () => {
+        deskPopWin1.classList.toggle('hide');
         stopScroll(false);
-
-        //document.body.removeChild(deskPopWin1);
-        //body.classList.toggle('overflow');
       });
     });
   });
 });
 
-const deskPop2 = document.querySelectorAll(".openDeskModal2");
+const deskPop2 = document.querySelectorAll('.openDeskModal2');
 deskPop2.forEach((element) => {
-  element.addEventListener("click", () => {
-    //body.classList.toggle('overflow');
-    const deskPopWin2 = document.createElement("section");
-    deskPopWin2.classList.add("desktop", "desk-modal");
+  element.addEventListener('click', () => {
+    const deskPopWin2 = document.createElement('section');
+    deskPopWin2.classList.add('desktop', 'desk-modal');
     deskPopWin2.innerHTML = `
       <div class="modalWrapper">
       <div class="headBar">
@@ -323,35 +324,19 @@ deskPop2.forEach((element) => {
       </div>
   </div>
       `;
-    // document.body.appendChild(deskPopWin2);
-    modalsSection.innerHTML = "";
+
+    modalsSection.innerHTML = '';
     modalsSection.appendChild(deskPopWin2);
     stopScroll(true);
 
-    window.addEventListener("click", (e) =>
-      e.target === deskPopWin2 ? deskPopWin2.classList.add("hide") : false
-    );
-    const closeDeskPop2 = document.querySelectorAll(".desk-quit2");
+    window.addEventListener('click', (e) => (e.target === deskPopWin2 ? deskPopWin2.classList.add('hide') : false));
+    const closeDeskPop2 = document.querySelectorAll('.desk-quit2');
 
     closeDeskPop2.forEach((el) => {
-      el.addEventListener("click", () => {
-        deskPopWin2.classList.toggle("hide");
+      el.addEventListener('click', () => {
+        deskPopWin2.classList.toggle('hide');
         stopScroll(false);
-        //document.body.removeChild(deskPopWin2);
-        //body.classList.toggle('overflow');
       });
     });
   });
 });
-
-function stopScroll(val) {
-  if (val) {
-    // Disable scroll
-    document.body.style.overflow = "hidden";
-    window.scrollTo(0, 0);
-
-  } else {
-    // Enable scroll
-    document.body.style.overflow = "auto";
-  }
-}

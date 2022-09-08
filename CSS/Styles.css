@@ -632,7 +632,7 @@ body {
 
   .modal-pop {
     color: #1a2236;
-    background-color: #ffffff;
+    background-color: #fff;
     position: fixed;
     width: 320px;
     overflow-y: scroll;

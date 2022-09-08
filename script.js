@@ -265,6 +265,7 @@ deskPop1.forEach((element) => {
           <span class="poppins next1">&#x2190; Previous Project </span>
           <span class="poppins next1">Next Project &#x2192;</span>
       </div>
+      <div class="bkg-color"></div>
   </div>
       `;
 

@@ -648,7 +648,7 @@
     position: absolute;
     top: 0;
     width: 100vw;
-    height: 100%;
+    height: 104%;
     overflow: scroll;
   }
 
@@ -658,6 +658,7 @@
     background-color: #fff;
     width: 90vw;
     margin-top: 70px;
+    margin-bottom: 70px;
     position: absolute;
     top: 0;
     bottom: -210%;
@@ -762,7 +763,13 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
-    margin-bottom: 109px;
+  }
+
+  .bkg-color{
+    background: rgba(26, 34, 54, 0.95);
+    width: 100%;
+    height: 70px;
+    margin-top: 109px;
   }
 
   .hide {

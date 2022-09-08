@@ -632,12 +632,14 @@ body {
 
   .modal-pop {
     color: #1a2236;
-    background-color: #e5e5e5;
+    background-color: #ffffff;
     position: fixed;
     width: 320px;
     overflow-y: scroll;
     max-height: 100%;
     z-index: 5;
+    padding-top: 19px;
+    padding-bottom: 20px;
   }
 
   .modal-quit {

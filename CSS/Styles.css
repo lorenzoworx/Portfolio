@@ -572,6 +572,7 @@ body {
     background-color: #fff;
     border: 1px solid #dfdfe0;
     border-radius: 4px;
+    resize: none;
   }
 
   .text-msg:active {

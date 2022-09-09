@@ -744,8 +744,8 @@ body {
   }
 
   .error-msg{
-    color: hotpink;
+    color: #f00;
     background-color: blue;
-    /* display: none; */
+    font-weight: 600;
   }
 }

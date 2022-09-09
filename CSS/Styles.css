@@ -73,6 +73,7 @@ body {
   overflow: hidden;
 }
 
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   html,
   body {
@@ -740,5 +741,11 @@ body {
     font-size: 18px;
     line-height: 27px;
     color: #1a2236;
+  }
+
+  .error-msg{
+    color: hotpink;
+    background-color: blue;
+    /* display: none; */
   }
 }

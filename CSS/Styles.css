@@ -741,4 +741,10 @@ body {
     line-height: 27px;
     color: #1a2236;
   }
+
+  .error-msg {
+    color: #f00;
+    background-color: blue;
+    font-weight: 600;
+  }
 }

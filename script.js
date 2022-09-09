@@ -341,3 +341,35 @@ deskPop2.forEach((element) => {
     });
   });
 });
+
+const mobileEmail = document.querySelector('#email');
+const mobileForm = document.querySelector('.mobileForm');
+const mobileError = document.querySelector('.error-msg');
+
+mobileError.style.visibility = 'hidden';
+
+mobileForm.addEventListener('submit', (event) => {
+  if (mobileEmail.value !== mobileEmail.value.toLowerCase()) {
+    event.preventDefault();
+    mobileError.innerHTML = 'Please enter your email in lowercase';
+    mobileError.style.visibility = 'visible';
+  } else {
+    mobileError.style.visibility = 'hidden';
+  }
+});
+
+const deskEmail = document.querySelector('#emailD');
+const deskForm = document.querySelector('.deskForm');
+const deskError = document.querySelector('.deskError');
+
+deskError.style.visibility = 'hidden';
+
+deskForm.addEventListener('submit', (event) => {
+  if (deskEmail.value !== deskEmail.value.toLowerCase()) {
+    event.preventDefault();
+    deskError.innerHTML = 'Please enter your email in lowercase';
+    deskError.style.visibility = 'visible';
+  } else {
+    deskError.style.visibility = 'hidden';
+  }
+});

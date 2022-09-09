@@ -775,4 +775,10 @@
   .hide {
     display: none;
   }
+
+  .deskError {
+    background-color: hotpink;
+    color: white;
+    font-size: 1rem;
+  }
 }

@@ -171,7 +171,7 @@ deskport2.innerHTML = `
   `;
 
 const modalPopup = document.querySelectorAll('.openModal');
-modalPopup.forEach((element) => {
+modalPopups.forEach((element) => {
   element.addEventListener('click', () => {
     const popupWindow = document.createElement('section');
     popupWindow.classList.add('modal-pop');

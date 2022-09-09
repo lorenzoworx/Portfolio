@@ -73,7 +73,6 @@ body {
   overflow: hidden;
 }
 
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   html,
   body {
@@ -743,7 +742,7 @@ body {
     color: #1a2236;
   }
 
-  .error-msg{
+  .error-msg {
     color: #f00;
     background-color: blue;
     font-weight: 600;

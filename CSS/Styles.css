@@ -230,7 +230,7 @@ body {
     background-color: #1a2236;
   }
 
-  .mobile-hello > div > button:hover {
+  .mobile-hello > div > button:hovers {
     border: 1px solid #1a2236;
     background-color: #fff;
   }
